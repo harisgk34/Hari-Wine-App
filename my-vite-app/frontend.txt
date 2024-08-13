@@ -1,0 +1,5 @@
+ misstakes*
+
+ 1 import {BrowserRouter,Routes,Route } from "react-router-dom";  {/* //typo routers and import la react nu potta  its react dom*/}
+
+2 router kathukanum
