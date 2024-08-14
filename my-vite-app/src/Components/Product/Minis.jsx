@@ -4,7 +4,7 @@ import Pcart from './Pcart'
 const Minis = () => {
   return (
     <div>Minis
-        <Pcart/>
+        
     </div>
   )
 }

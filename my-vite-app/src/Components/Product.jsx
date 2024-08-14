@@ -1,21 +1,70 @@
-// 
+import React, { useState } from 'react';
+import Minis from "./Product/Minis";
+import RedWine from "./Product/RedWine";
+import RoseWine from "./Product/RoseWine";
+import SparklingWine from "./Product/SparklingWine";
+import Subcription from "./Product/Subcription";
+import WightWine from "./Product/WightWine";
 
-import React from 'react';
+// Your component definitions
 
-function App() {
-  // Step 1: Create an array with 6 items
-  const items = ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5', 'Item 6'];
+
+function Product() {
+  const buttons = ["Minis", "RedWine", "RoseWine", "SparklingWine", "Subscription", "WhiteWine"];
+
+  // State to track the active component
+  const [activeComponent, setActiveComponent] = useState(null);
+
+  // Function to render the active component based on the selected button
+  const renderComponent = () => {
+    switch (activeComponent) {
+      case 'Minis':
+        return <Minis />;
+      case 'RedWine':
+        return <RedWine />;
+      case 'RoseWine':
+        return <RoseWine/>;
+      case 'SparklingWine':
+        return <SparklingWine/>;
+      case 'Subscription':
+        return <Subcription  />;
+      case 'WhiteWine':
+        return <WightWine  />;
+      default:
+        return null;
+    }
+  };
 
   return (
     <div>
-      {/* Step 2: Use map to iterate over the array and render each item as a button */}
-      {items.map((item, index) => (
-        <button key={index} onClick={() => alert(`You clicked on ${item}`)}>
-          {`Button ${index + 1}: ${item}`}
+      {buttons.map((item, index) => (
+        <button 
+          key={index} 
+          onClick={() => setActiveComponent(item)} 
+          className="bg bg-pink-500 mr-2 p-2 m-2 hover:bg-slate-400"
+        >
+          {item}
         </button>
       ))}
+
+      <div className="mt-4">
+        {renderComponent()}
+      </div>
     </div>
   );
 }
 
-export default App;
+export default Product;
+
+
+
+
+
+
+
+
+
+
+
+
+

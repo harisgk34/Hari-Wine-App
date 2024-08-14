@@ -8,11 +8,15 @@ import Pcart from './Product/Pcart';
 const Home = () => {
   return (
     <div className="font-cera ">
-      <Navbar />
+      {/* <Navbar />
       <Cover/>
+      <div className="flex justify-center">
       <Product/>
+      </div> */}
 
       <Pcart/>
+      {/* <Product/> */}
+
 
  
     </div>
