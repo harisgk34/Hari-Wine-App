@@ -3,3 +3,7 @@
  1 import {BrowserRouter,Routes,Route } from "react-router-dom";  {/* //typo routers and import la react nu potta  its react dom*/}
 
 2 router kathukanum
+
+3 product 
+
+okey create one array array hae 6 item . andcall map funtion with index print item as a butten.

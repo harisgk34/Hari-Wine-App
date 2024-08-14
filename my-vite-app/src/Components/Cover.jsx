@@ -9,7 +9,7 @@ function Cover() {
         <img className="" src="/Images/Cover-img2.jpg" alt="cover-img" />
         
         <div className="absolute top-60  text-white flex items-center justify-between w-full pr-10">
-          <button className="h-12 ml-5 mt-3 font-medium px-6 border-0 font-sans  bg-white text-black rounded-md hover:text-white hover:bg-gradient-to-b from-[#795C58] via-[#653E39] to-[#2F130F]">
+          <button className="h-12 ml-5 mt-3 font-medium px-6 border-0 font-sans  bg-white text-black rounded-md hover:text-white hover:bg-gradient-to-b from-[] via-[#653E39] to-[#2F130F]">
             DISCOVER YOUR WINES
           </button>
           <div className="pl-10">
