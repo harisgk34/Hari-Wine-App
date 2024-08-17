@@ -5,10 +5,12 @@ import Product from "./Product";
 import Pcart from "./Product/Pcart";
 import Quiz from "./Quiz";
 import Serice from "./Serice";
+import Comments from "./Comments";
 
 const Home = () => {
   return (
     <div className="font-cera ">
+      
       <Navbar />
       <Cover />
 
@@ -25,8 +27,15 @@ const Home = () => {
         <Quiz/>
       </div>
       <div>
-        <Serice/>
+        <Serice />
       </div>
+
+      {/* costommers Review */}
+
+      <div>
+        <Comments/>
+      </div>
+      
     </div>
   );
 };
