@@ -1,0 +1,51 @@
+/* @keyframes slide {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-120%);
+    }
+  }
+
+  .moving-image {
+    animation: slide 8s linear infinite;
+  }
+
+  .delay-2 {
+    animation-delay: 2s;
+  }
+
+  .delay-4 {
+    animation-delay: 4s;
+  }
+
+  .delay-6 {
+    animation-delay: 6s;
+  }
+
+  .delay-8 {
+    animation-delay: 8s;
+  }
+
+  .delay-10 {
+    animation-delay: 10s;
+  }
+
+  .delay-12 {
+    animation-delay: 12s;
+  }
+
+  .delay-14 {
+    animation-delay: 14s;
+  } */
+
+
+
+  .cmtcart {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+  }
+
+

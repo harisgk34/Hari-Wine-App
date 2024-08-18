@@ -6,6 +6,7 @@ import Pcart from "./Product/Pcart";
 import Quiz from "./Quiz";
 import Serice from "./Serice";
 import Comments from "./Comments";
+import Orgonic from "./Orgonic";
 
 const Home = () => {
   return (
@@ -34,6 +35,10 @@ const Home = () => {
 
       <div>
         <Comments/>
+      </div>
+      {/* Orgonic */}
+      <div>
+        <Orgonic/>
       </div>
       
     </div>
