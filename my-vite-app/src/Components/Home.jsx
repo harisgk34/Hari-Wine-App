@@ -7,6 +7,10 @@ import Quiz from "./Quiz";
 import Serice from "./Serice";
 import Comments from "./Comments";
 import Orgonic from "./Orgonic";
+import Food from "./Food";
+import Flower from "./Flower";
+
+
 
 const Home = () => {
   return (
@@ -39,6 +43,13 @@ const Home = () => {
       {/* Orgonic */}
       <div>
         <Orgonic/>
+      </div>
+      <div>
+
+<Food/>
+      </div>
+      <div>
+        <Flower/>
       </div>
       
     </div>
